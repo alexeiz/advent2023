@@ -1,6 +1,6 @@
 #include "common.hpp"
 #include "puzzle_reg.hpp"
-#include "day1.hpp"
+#include "day01.hpp"
 
 using namespace std;
 
