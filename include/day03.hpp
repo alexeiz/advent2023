@@ -16,7 +16,7 @@ inline char schematic[] =
     " 664 598  ";
 inline int schem_rows = 10;
 inline int schem_cols = (std::ssize(schematic) - 1) / schem_rows;
-}  // namespace day3_test1
+}  // namespace day3_test
 
 namespace day3 {
 inline char schematic[] =
