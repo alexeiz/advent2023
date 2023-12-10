@@ -8,12 +8,13 @@ enum colors
     red = 0,
     green = 1,
     blue = 2,
+    colors_count = 3,
 };
 
 struct pick { int num; int color; };
 }  // namespace day2
 
-namespace day2_test1 {
+namespace day2_test {
 using namespace day2;
 
 inline std::vector<std::vector<pick>> const games[] = {
@@ -23,7 +24,7 @@ inline std::vector<std::vector<pick>> const games[] = {
     {{{1, green}, {3, red}, {6, blue}}, {{3, green}, {6, red}}, {{3, green}, {15, blue}, {14, red}}},
     {{{6, red}, {1, blue}, {3, green}}, {{2, blue}, {1, red}, {2, green}}},
 };
-}  // namespace day2_test1
+}  // namespace day2_test
 
 namespace day2 {
 inline std::vector<std::vector<pick>> const games[] = {
