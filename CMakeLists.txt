@@ -43,7 +43,8 @@ list(APPEND LIBRARIES ${fmt_LIBRARIES})
 include_directories(include)
 set(SOURCES
     src/main.cpp
-    src/day01_1.cpp src/day01_2.cpp)
+    src/day01_1.cpp src/day01_2.cpp
+    src/day02_1.cpp)
 
 # executable
 add_executable(advent23 ${SOURCES})
