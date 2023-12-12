@@ -48,6 +48,7 @@ set(SOURCES
     src/day03_1.cpp src/day03_2.cpp
     src/day04_1.cpp src/day04_2.cpp
     src/day05_1.cpp src/day05_2.cpp
+    src/day06_1.cpp
     src/day11_1.cpp src/day11_2.cpp)
 
 # executable
