@@ -1,12 +1,13 @@
 #pragma once
 
+#include <compare>
 #include <initializer_list>
 #include <vector>
 
 namespace day5 {
 struct range_map
 {
-    unsigned dest;
+    unsigned dst;
     unsigned src;
     unsigned len;
 };
@@ -14,7 +15,7 @@ struct range_map
 class category_map
 {
 public:
-    constexpr category_map(std::initializer_list<range_map> range_list)
+    category_map(std::initializer_list<range_map> range_list)
         : ranges_(range_list)
     {}
 
@@ -29,10 +30,11 @@ public:
         return s;
     }
 
+    auto const & get() const { return ranges_; }
+
 private:
     std::vector<range_map> ranges_;
 };
-
 }  // namespace day5
 
 namespace day5_test {
