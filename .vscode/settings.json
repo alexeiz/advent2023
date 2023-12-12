@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "concepts": "cpp",
+        "ranges": "cpp",
+        "string_view": "cpp",
+        "compare": "cpp"
+    }
+}
